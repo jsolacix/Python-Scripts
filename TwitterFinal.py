@@ -1,7 +1,7 @@
 import requests
 from requests_oauthlib import OAuth1, OAuth1Session
-client_key='vjvlBnuNmtNFjVloqB9MOxtrV'
-client_secret='UiYzaUwy3VXQDyqHZWwwj5mWKzwcDW36qfIcY1CXGrYTEmHTCz'
+client_key=''
+client_secret=''
 request_token_url='https://api.twitter.com/oauth/request_token'
 access_token_url='https://api.twitter.com/oauth/access_token'
 authorize_url='https://api.twitter.com/oauth/authorize'
