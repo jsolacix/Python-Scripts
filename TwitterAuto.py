@@ -3,15 +3,15 @@ from rauth import OAuth1Service
 # Get a real consumer key & secret from https://dev.twitter.com/apps/new
 twitter = OAuth1Service(
     name='twitter',
-    consumer_key='vjvlBnuNmtNFjVloqB9MOxtrV',
-    consumer_secret='UiYzaUwy3VXQDyqHZWwwj5mWKzwcDW36qfIcY1CXGrYTEmHTCz',
+    consumer_key='',
+    consumer_secret='',
     request_token_url='https://api.twitter.com/oauth/request_token',
     access_token_url='https://api.twitter.com/oauth/access_token',
     authorize_url='https://api.twitter.com/oauth/authorize',
     base_url='https://api.twitter.com/1.1/')
 
-request_token = 'tCIQJwxHEPwJ64AZCaVRpdet3itgjsVl'
-request_token_secret = 'JVjKxinLpslFjuX0I7qSeJ9iGi4FmQyx'	
+request_token = ''
+request_token_secret = ''	
 
 authorize_url = twitter.get_authorize_url(request_token)
 
@@ -19,8 +19,8 @@ print 'Login automatically'
 
 
 
-access_token = '526690193-jLuTHbEoULYt2fQ7lloKXOZIPWwMDYGGscuEHoEe'
-access_token_secret = 'nHKxxTVGK6rcRA2MZlyDdgNdpQGvuuVdtZGuZBd5zmKOA'
+access_token = ''
+access_token_secret = ''
 
 session = twitter.get_session((access_token, access_token_secret))
 
